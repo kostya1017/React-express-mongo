@@ -1,0 +1,222 @@
+[
+  {
+    "text": "How do you manage your books?",
+    "choices": [
+      {
+        "text": "Online accounting software",
+        "points": 15
+      },
+      {
+        "text": "Desktop accounting software",
+        "points": 10
+      },
+      {
+        "text": "Spreadsheets (love them formulas!)",
+        "points": 5
+      },
+      {
+        "text": "Books? You mean like Harry Potter?",
+        "points": 0
+      }
+
+    ]
+  },
+  {
+    "text": "Who manages your business finances?",
+    "choices": [
+      {
+        "text": "An external finance person",
+        "points": 15
+      },
+      {
+        "text": "Someone in-house",
+        "points": 10
+      },
+      {
+        "text": "The business owner",
+        "points": 5
+      },
+      {
+        "text": "Management schmanagement!",
+        "points": 0
+      }
+
+    ]
+  },
+  {
+    "text": "When do you ask for payment?",
+    "choices": [
+      {
+        "text": "Immediatelyddd",
+        "points": 15
+      },
+      {
+        "text": "Within a couple of weeks",
+        "points": 10
+      },
+      {
+        "text": "Within a month",
+        "points": 5
+      },
+      {
+        "text": "\"Oh, that reminds me!\"",
+        "points": 0
+      }
+
+    ]
+  },
+  {
+    "text": "What are your credit terms?",
+    "choices": [
+      {
+        "text": "I don’t offer credit",
+        "points": 15
+      },
+      {
+        "text": "1-30 days",
+        "points": 10
+      },
+      {
+        "text": "More than 30 days",
+        "points": 5
+      },
+      {
+        "text": "Hopefully they’ll pay me sometime",
+        "points": 0
+      }
+
+    ]
+  },
+  {
+    "text": "What do you do when payment is overdue?",
+    "choices": [
+      {
+        "text": "Hit the phones every day until I get paid",
+        "points": 15
+      },
+      {
+        "text": "Send an occasional gentle reminder",
+        "points": 10
+      },
+      {
+        "text": "Wait and hope for the best",
+        "points": 5
+      },
+      {
+        "text": "Sign off my emails to them “regards” rather than “kind regards”. That’ll show ‘em.",
+        "points": 0
+      }
+
+    ]
+  },
+  {
+    "text": "What do you do if someone consistently pays late?",
+    "choices": [
+      {
+        "text": "Charge them more",
+        "points": 15
+      },
+      {
+        "text": "Re-negotiate payment terms",
+        "points": 10
+      },
+      {
+        "text": "End our relationship with them",
+        "points": 5
+      },
+      {
+        "text": "Grumble under my breath and hope they’ll change their ways",
+        "points": 0
+      }
+
+    ]
+  },
+  {
+    "text": "How do you receive payment?",
+    "choices": [
+      {
+        "text": "\"Cash, credit card or bank transfer\"",
+        "points": 15
+      },
+      {
+        "text": "Cash only",
+        "points": 10
+      },
+      {
+        "text": "Cheque",
+        "points": 5
+      },
+      {
+        "text": "Camels",
+        "points": 0
+      }
+
+    ]
+  },
+  {
+    "text": "How do you record your expenses?",
+    "choices": [
+      {
+        "text": "with an app (like ReceiptBank or Expensify)",
+        "points": 15
+      },
+      {
+        "text": "in a spreadsheet",
+        "points": 10
+      },
+      {
+        "text": "in a ledger",
+        "points": 5
+      },
+      {
+        "text": "by putting all my receipts in a shoebox",
+        "points": 0
+      }
+
+    ]
+  },
+  {
+    "text": "What do you do with the profits?",
+    "choices": [
+      {
+        "text": "Set aside a portion of every paid invoice",
+        "points": 15
+      },
+      {
+        "text": "Reinvest every penny we receive back into the business",
+        "points": 10
+      },
+      {
+        "text": "\"Save some cash, but only from the bigger invoices\"",
+        "points": 5
+      },
+      {
+        "text": "Buy something cool",
+        "points": 0
+      }
+
+    ]
+  },
+  {
+    "text": "How do you forecast your cashflow?",
+    "choices": [
+      {
+        "text": "We use a cash flow forecasting tool (like Float!)",
+        "points": 15
+      },
+      {
+        "text": "Our accountant does it",
+        "points": 10
+      },
+      {
+        "text": "Manually using spreadsheets",
+        "points": 5
+      },
+      {
+        "text": "What is this “forecast” of which you speak?",
+        "points": 0
+      }
+
+    ]
+  }
+]
