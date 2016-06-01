@@ -7,7 +7,7 @@ import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import webpackConfig from '../../webpack.config';
-//import api from './api';
+import api from './api';
 
 /**
  * Starts app with config
@@ -71,8 +71,9 @@ app.listen(port, function() {
 });
   
   **/
-  app.listen(8008, function () {
-  console.log('Example app listening on port 8008!');
+  var port = process.env.PORT || 5000;
+  app.listen(port, function () {
+  console.log('Example app listening on port 5000!');
   });
   
   //return server;

@@ -57,16 +57,9 @@ import "./css/font-awesome.min.css";
  * Or if they haven't entered name
  */
 
+
 // Render app with routes
 render(
-  <Provider store={store}>
-    <Router history={createHistory()}>
-      <Route path="/" component={App}>
-     
-       
-        
-      </Route>
-    </Router>
-  </Provider>,
+  <div>this is the sample sss</div>,
   document.getElementById('root')
 );
