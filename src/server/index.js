@@ -18,10 +18,10 @@ export function start(config) {
   process.env.NODE_ENV = config;
   const app = express();
 
-  const dbName = (app.get('env') === 'test') ? 'quiz_test' : 'quiz';
-  const db = mongoose.connect('mongodb://localhost/' + dbName).connection;
-  db.on('error', console.error.bind(console, 'connection error'));
-  mongoose.Promise = Promise;
+ // const dbName = (app.get('env') === 'test') ? 'quiz_test' : 'quiz';
+ // const db = mongoose.connect('mongodb://localhost/' + dbName).connection;
+ // db.on('error', console.error.bind(console, 'connection error'));
+  //mongoose.Promise = Promise;
 
   // Setup webpack on dev
 
@@ -49,15 +49,32 @@ export function start(config) {
     res.status(statusCode || 500).json({ message, errors });
   });
 
-  app.use((req, res, next) => {
-    const err = createError(404);
-    res.status(404).json({ message: err.message });
-  });
+  //app.use((req, res, next) => {
+  //  const err = createError(404);
+  //  res.status(404).json({ message: err.message });
+ // });
 
-
-  const server = app.listen(8000, 'localhost', () => {
+  
+  /**
+  const server = app.listen(8008, 'localhost', () => {
     const { address, port } = server.address();
     console.log('Server listening at http://%s:%s', address, port);
   });
-  return server;
+  
+//var express = require('express');
+
+var app = express.createServer(express.logger());
+
+var server = process.env.PORT || 5000;
+app.listen(port, function() {
+  console.log("Listening on " + port);
+});
+  
+  **/
+  app.listen(8008, function () {
+  console.log('Example app listening on port 8008!');
+  });
+  
+  //return server;
+  
 }

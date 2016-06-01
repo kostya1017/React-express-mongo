@@ -1,0 +1,83 @@
+.content{
+	overflow: auto;
+	position: relative;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	margin-bottom: 40px;
+}
+
+.content.hidden{ display: none; }
+
+.content.light{
+	background-color: #ddd;
+	color: #333;
+}
+.content img{
+	margin: 0;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	padding: 3px;
+	background: rgba(0,0,0,0.2);
+}
+.horizontal-images.content ul, .vertical-images.content ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: hidden;
+}
+
+.horizontal-images.content li{
+	margin: 0 3px;
+	float: left;
+}
+
+.vertical-images.content li{ margin: 3px 0; }
+
+.horizontal-images.content li:first-child{ margin-left: 0; }
+
+.vertical-images.content li:first-child{
+	margin-bottom: 3px;
+	margin-top: 0;
+}
+
+.horizontal-images.content li:last-child{ margin-right: 0; }
+
+.vertical-images.content li:last-child{ margin-bottom: 0; }
+
+.horizontal-images.content li img{
+	width: auto;
+	padding: 0;
+}
+#content-1.content.nested{ margin-bottom: 40px; }
+
+#content-1.content.nested p{ width: 1000px; }
+
+#content-1.content.nested .nested{
+	margin: 20px;
+	width: 600px;
+	height: 300px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	background: #d8d8d8 !important;
+	height: 8px !important;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	background: transparent !important;
+	height: 8px !important;
+	padding-left: 5px;
+}
+.mCSB_1_container{
+	margin-bottom: 0px;
+}
+.mCustomScrollBox{
+	height: auto !important;
+}
+
+#content-1 li{
+	margin-right: 20px;
+    margin-left: 0px;
+}
+#content-1 li:last-child{
+	margin-right: 0px;
+}
+#mCSB_1_container{
+	margin-bottom: 0px !important;
+}

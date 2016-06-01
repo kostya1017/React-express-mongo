@@ -3,21 +3,20 @@ import { connect } from 'react-redux';
 import Immutable from 'immutable';
 import NavBar from '../components/NavBar';
 
+
+//import styles from './App.css';
 /**
  * App - wraps all other components
  */
 class App extends Component {
   render() {
     // Display current score only on question route
-    const isQuestionRoute = this.props.routes[this.props.routes.length - 1].path === 'questions/:id';
+   // const isQuestionRoute = this.props.routes[this.props.routes.length - 1].path === 'questions/:id';
     return (
-      <div className="container" style={{ maxWidth: '800px', marginTop: '20px' }}>
-        {isQuestionRoute && <NavBar score={this.props.response.get('score')} /> || <NavBar />}
-        <div className="row">
-          <div className="col-md-12">
+      <div class="wholepage" id="homepage">
+       
             {React.cloneElement(this.props.children, this.props)}
-          </div>
-        </div>
+      
       </div>
     );
   }

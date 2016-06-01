@@ -17,6 +17,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
   ],
+  
   module: {
     loaders: [{
       test: /\.js$/,
@@ -27,10 +28,15 @@ module.exports = {
     {
       test: /\.css$/,
       loader: 'style-loader!css-loader',
-    },
+	}, 
     {
       test: /.(png|woff(2)?|eot|ttf|svg)(\?[a-z0-9=\.]+)?$/,
       loader: 'url-loader?limit=100000]',
-    }],
+	  
+    },],
+	
   },
+  resolve: {
+    extensions: ['', '.js', '.jsx', '.json']
+  }
 };

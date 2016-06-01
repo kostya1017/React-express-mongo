@@ -33,7 +33,7 @@ class Welcome extends Component {
     return (
       <div>
         <div className="page-header">
-          <h1>Welcome to the Cash Flow Quiz</h1>
+          <h1 className="test" >Welcome to the Cash Flow Quiz</h1>
         </div>
         <form onSubmit={this.handleSubmit}>
           <div className="input-group">
