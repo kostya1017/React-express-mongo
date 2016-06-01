@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Immutable from 'immutable';
-import NavBar from '../components/NavBar';
+//import NavBar from '../components/NavBar';
 
 
 //import styles from './App.css';
@@ -15,22 +15,13 @@ class App extends Component {
     return (
       <div class="wholepage" id="homepage">
        
-            {React.cloneElement(this.props.children, this.props)}
+           <h1 className="test" >Welcome to the Cash Flow Quiz</h1>
       
       </div>
     );
   }
 }
 
-App.propTypes = {
-  children: PropTypes.element.isRequired,
-  response: PropTypes.instanceOf(Immutable.Map()).isRequired,
-};
 
-function mapStateToProps(state) {
-  return {
-    response: state.response,
-  };
-}
 
-export default connect(mapStateToProps)(App);
+export default App;

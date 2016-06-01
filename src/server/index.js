@@ -1,13 +1,13 @@
 import path from 'path';
 import express from 'express';
 import bodyParser from 'body-parser';
-import mongoose from 'mongoose';
+//import mongoose from 'mongoose';
 import createError from 'http-errors';
 import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import webpackConfig from '../../webpack.config';
-import api from './api';
+//import api from './api';
 
 /**
  * Starts app with config
